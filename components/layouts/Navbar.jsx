@@ -44,7 +44,7 @@ export const Navbar = ({ navItems, className }) => {
           duration: 0.2,
         }}
         className={cn(
-          "fixed top-10 inset-x-0 max-w-fit mx-auto border border-transparent dark:border-white/[0.15] rounded-full dark:bg-black-100 bg-white shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[5000] px-4 sm:px-8 py-2 sm:py-4 flex items-center justify-center space-x-2 sm:space-x-4",
+          "fixed top-10 inset-x-0 max-w-fit mx-auto border border-transparent dark:border-white/[0.15] rounded-xl dark:bg-black-100 bg-white shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[5000] px-4 sm:px-8 py-2 sm:py-4 flex items-center justify-center space-x-2 sm:space-x-4",
           className
         )}
       >

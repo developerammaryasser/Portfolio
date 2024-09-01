@@ -3,7 +3,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/utils/Provider";
 import { Navbar } from "@/components/layouts/Navbar";
 import { navItems } from "@/data";
-
+import Footer from '@/components/layouts/Footer'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -22,6 +22,7 @@ export default function RootLayout({ children }) {
         >
           <Navbar navItems={navItems} />
           {children}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

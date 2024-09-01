@@ -2,7 +2,8 @@ import Button from "@/components/elements/Button";
 import { Spotlight } from "@/components/ui/Spotlight";
 import { TextGenerateEffect } from "@/components/ui/TextGenerateEffect";
 import Image from "next/image";
-import ArrowSVG from '@/public/arrow.svg'
+import ArrowSVG from "@/public/arrow.svg";
+import Link from "next/link";
 const Hero = () => {
   return (
     <section className="h-screen">
@@ -28,9 +29,16 @@ const Hero = () => {
           <p className="text-center text-base text-blue-100 py-4 md:w-[70%] w-full">
             Hi, I&apos;m Ammar, a Next.js Developer based in Croatia.
           </p>
-          <Button position="right" icon={<Image src={ArrowSVG} alt="Contact" width={15} height={15}/>}>
-            See my work 
-          </Button>
+          <Link href="#projects">
+            <Button
+              position="right"
+              icon={
+                <Image src={ArrowSVG} alt="Contact" width={10} height={10} />
+              }
+            >
+              See my work
+            </Button>
+          </Link>
         </div>
       </div>
     </section>

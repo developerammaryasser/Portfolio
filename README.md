@@ -1,7 +1,7 @@
 # Portfolio Website
 
 Welcome to my personal portfolio website! This repository contains the source code for my portfolio, showcasing my work, skills, and projects. The site is designed to be a modern and interactive representation of my professional journey.
-
+![Portfolio-cover](https://github.com/user-attachments/assets/19fc5b68-2208-4f77-a814-9cd677a42199)
 ## Website Link
 
 You can view the live website here: [portfolioammar.vercel.app](https://portfolioammar.vercel.app/)
@@ -13,7 +13,6 @@ You can view the live website here: [portfolioammar.vercel.app](https://portfoli
 - **Interactive Elements:** Includes animations and interactive components using Framer Motion and React.
 - **Dynamic Content:** Features various sections such as About Me, Projects, and Contact Information.
 - **Animated Effects:** Utilizes custom animations and effects to enhance user engagement.
-- **Dark Mode Support:** Switches between light and dark themes based on user preference.
 
 ## Tools & Technologies Used
 
@@ -23,7 +22,6 @@ You can view the live website here: [portfolioammar.vercel.app](https://portfoli
 - **Tailwind CSS:** A utility-first CSS framework for creating custom designs quickly.
 - **@react-three/fiber:** A React renderer for Three.js to create 3D graphics and animations.
 - **Lottie:** For rendering animations from JSON data files.
-- **TypeScript:** Ensures type safety and improves development efficiency.
 - **Vercel:** Hosting platform for deploying and managing Next.js applications.
 
 ## Installation

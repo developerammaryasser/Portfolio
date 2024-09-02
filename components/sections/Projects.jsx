@@ -1,7 +1,6 @@
 import { projects } from "@/data";
 import { PinContainer } from "../ui/Pin";
 import Image from "next/image";
-import { FaArrowUp } from "react-icons/fa";
 import Link from "next/link";
 import Section from "./Section";
 import ArrowSVG from '@/public/arrow.svg'

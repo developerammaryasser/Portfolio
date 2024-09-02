@@ -6,7 +6,7 @@ import { socialMedia } from "@/data";
 import Link from "next/link";
 const Footer = () => {
   return (
-    <footer className="bg-black-100 relative py-0 pt-16 overflow-hidden">
+    <footer id="footer" className="bg-black-100 relative py-0 pt-16 overflow-hidden">
       <div className="container">
         <div className="size-full absolute top-0 md:-top-1/2 left-0 z-5">
           <Image

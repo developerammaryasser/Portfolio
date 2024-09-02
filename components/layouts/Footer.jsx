@@ -28,7 +28,7 @@ const Footer = () => {
               achieve your goals.
             </p>
           </div>
-          <Link href="#projects">
+          <Link href="#projects" className="flex items-stretch justify-center">
             <Button
               position="right"
               icon={

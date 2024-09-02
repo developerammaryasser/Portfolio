@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col lg:flex-row items-center justify-between py-12 w-full gap-8 relative z-10">
           <p className="text-base text-blue-100">
-            Copyifght &copy;2024 <Link href="www.linkedin.com/in/frontend-ammar-yasser">Ammar Yasser</Link>
+            Copyright &copy;2024 <Link href="www.linkedin.com/in/frontend-ammar-yasser">Ammar Yasser</Link>
           </p>
           <div className="flex flex-row gap-4">
             {socialMedia.map(({ id, img }) => (

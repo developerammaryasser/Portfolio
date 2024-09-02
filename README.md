@@ -1,7 +1,9 @@
 # Portfolio Website
 
 Welcome to my personal portfolio website! This repository contains the source code for my portfolio, showcasing my work, skills, and projects. The site is designed to be a modern and interactive representation of my professional journey.
+
 ![Portfolio-cover](https://github.com/user-attachments/assets/19fc5b68-2208-4f77-a814-9cd677a42199)
+
 ## Website Link
 
 You can view the live website here: [portfolioammar.vercel.app](https://portfolioammar.vercel.app/)

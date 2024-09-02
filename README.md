@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Website
 
-## Getting Started
+Welcome to my personal portfolio website! This repository contains the source code for my portfolio, showcasing my work, skills, and projects. The site is designed to be a modern and interactive representation of my professional journey.
 
-First, run the development server:
+## Website Link
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+You can view the live website here: [portfolioammar.vercel.app](https://portfolioammar.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Modern Design:** A sleek, contemporary design that highlights my projects and skills.
+- **Responsive Layout:** Optimized for desktop, tablet, and mobile devices.
+- **Interactive Elements:** Includes animations and interactive components using Framer Motion and React.
+- **Dynamic Content:** Features various sections such as About Me, Projects, and Contact Information.
+- **Animated Effects:** Utilizes custom animations and effects to enhance user engagement.
+- **Dark Mode Support:** Switches between light and dark themes based on user preference.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Tools & Technologies Used
 
-## Learn More
+- **React:** A JavaScript library for building user interfaces, used for the core of the frontend.
+- **Next.js:** A React framework for server-side rendering and static site generation.
+- **Framer Motion:** For adding animations and interactive components to enhance user experience.
+- **Tailwind CSS:** A utility-first CSS framework for creating custom designs quickly.
+- **@react-three/fiber:** A React renderer for Three.js to create 3D graphics and animations.
+- **Lottie:** For rendering animations from JSON data files.
+- **TypeScript:** Ensures type safety and improves development efficiency.
+- **Vercel:** Hosting platform for deploying and managing Next.js applications.
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To run this project locally, follow these steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. **Clone the repository:**
 
-## Deploy on Vercel
+    ```bash
+    git clone https://github.com/developerammaryasser/Portfolio.git
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Navigate to the project directory:**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    ```bash
+    cd Portfolio
+    ```
+
+3. **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+4. **Run the development server:**
+
+    ```bash
+    npm run dev
+    ```
+
+5. **Open your browser and visit:**
+
+    ```bash
+    http://localhost:3000
+    ```
+
+## Development
+
+- **Frontend Development:** Uses React, Next.js, and Tailwind CSS for building responsive and interactive UI components.
+- **Animation & Graphics:** Implemented using Framer Motion, Lottie, and @react-three/fiber for creating engaging visual effects.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions or improvements, please create a pull request or open an issue.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries, please contact me at: [ammaryasser.online@gmail.com](mailto:ammaryasser.online@gmail.com)
+
+---
+
+Feel free to explore the repository and check out the website to see the features in action. Enjoy!

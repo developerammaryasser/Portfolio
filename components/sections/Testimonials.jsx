@@ -45,7 +45,7 @@ const Testimonials = () => {
           {workExperience.map(({ id, title, desc, className, thumbnail }) => (
             <HoverBorderGradient
               key={id}
-              containerClassName={`rounded-3xl bg-black-200 border border-white/[0.1] h-[24rem] md:h-[12rem] overflow-hidden ${className}`}
+              containerClassName={`rounded-3xl bg-black-200 border border-white/[0.1] overflow-hidden ${className}`}
               as="div"
               className={`flex items-center justify-between gap-8 p-8`}
             >

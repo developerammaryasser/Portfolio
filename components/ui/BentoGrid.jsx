@@ -1,8 +1,11 @@
+"use client";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Button from "../elements/Button";
 import { FaCopy } from "react-icons/fa";
-
+import { useState } from "react";
+import Lottie from "react-lottie";
+import animationData from '@/data/confetti.json'
 export const BentoGrid = ({ className, children }) => {
   return (
     <div
@@ -26,11 +29,18 @@ export const BentoGridItem = ({
   imgClassName,
   spareImg,
 }) => {
+  const [copied, isCopied] = useState(false);
+  const handleCopy = () => {
+    navigator.clipboard.writeText("ammaryasser.online@gmail.com");
+    isCopied(true);
+  };
   return (
     <div
       className={cn(
         `row-span-1 relative overflow-hidden ${
-          id === 4 ? "px-10 py-6 flex-col items-center md:items-start justify-center md:justify-start" : "justify-between "
+          id === 4
+            ? "px-10 py-6 flex-col items-center md:items-start justify-center md:justify-start"
+            : "justify-between "
         }  hover:shadow-xl transition duration-200 shadow-input dark:shadow-none dark:bg-blac bg-white border border-white/[0.1] flex space-y-4 rounded-3xl`,
         className
       )}
@@ -54,14 +64,18 @@ export const BentoGridItem = ({
       <div
         className={`flex flex-col transition duration-200 text-xl md:text-2xl ${titleClassName}`}
       >
-        <div className={`flex flex-col justify-between items-end ${id === 2 ? "md:flex-col h-full" : "md:flex-row"}`}>
+        <div
+          className={`flex flex-col justify-between items-end ${
+            id === 2 ? "md:flex-col h-full" : "md:flex-row"
+          }`}
+        >
           <div className={`flex flex-col ${id === 2 ? "px-4" : "p-6"}`}>
             <div className="text-neutral-600 text-xs dark:text-neutral-300">
               {description}
             </div>
             <div
               className={`font-sans font-bold text-neutral-600 dark:text-neutral-200 ${
-                 id === 4 ? "mb-8" : ""
+                id === 4 ? "mb-8" : ""
               } z-10`}
             >
               {title}
@@ -80,10 +94,22 @@ export const BentoGridItem = ({
           )}
         </div>
         {id === 4 ? (
-          <Button position={"left"} className="py-4">
+          <div className="relative">
+          <div className="absolute -bottom-5 lg:-bottom-10 right-0">
+            <Lottie options={{
+              loop: copied,
+              autoplay: copied,
+              animationData,
+              rendererSettings: {
+                preserveAspectRatio: "xMidyMid slice"
+              }
+            }} />
+          </div>
+          <Button position={"left"} className="py-4" onClick={handleCopy}>
             <FaCopy />
-            Copy my email address
+            {copied ? "Copied!" : "Copy my email address"}
           </Button>
+          </div>
         ) : null}
       </div>
     </div>

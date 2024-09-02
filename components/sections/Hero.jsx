@@ -29,7 +29,7 @@ const Hero = () => {
           <p className="text-center text-base text-blue-100 py-4 md:w-[70%] w-full">
             Hi, I&apos;m Ammar, a Next.js Developer based in Croatia.
           </p>
-          <Link href="#projects">
+          <Link href="#projects" className="flex items-stretch justify-center">
             <Button
               position="right"
               icon={
